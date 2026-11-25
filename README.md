@@ -94,6 +94,10 @@ Jalur Dummy-Plug ke Armisael ditandai merah: Switch-Lab (10.72.4.48/29), link Ri
 
 Berkas yang dapat disunting: [artefak/pohon-ip.drawio](artefak/pohon-ip.drawio).
 
+Topologi GNS3 yang dibangun:
+
+![Topologi GNS3](dokumentasi/JARKOM5_01_topologi-gns3.png)
+
 ---
 
 ## Soal 2 – IP interface router
@@ -471,6 +475,10 @@ ping -c 2 10.72.4.65
 Gendou ke seluruh 25 node (perintah terlihat pada gambar, skrip setara: `skrip/uji_konektivitas.sh`):
 
 ![Ping ke seluruh node](dokumentasi/JARKOM5_06_ping-semua-node.png)
+
+Gendou, setelah seluruh node dihentikan lalu dinyalakan kembali (restart total). Seluruh node kembali terjangkau; Magi-Casper tidak membalas ping sesuai soal 11:
+
+![Uji setelah restart total](dokumentasi/JARKOM5_06_uji-setelah-restart-total.png)
 
 ---
 
