@@ -1,0 +1,5 @@
+auto eth0
+iface eth0 inet dhcp
+auto eth1
+iface eth1 inet manual
+        up /root/startup.sh > /dev/null 2>&1

@@ -1,0 +1,7 @@
+auto eth0
+iface eth0 inet static
+        address 10.72.4.60
+        netmask 255.255.255.248
+        gateway 10.72.4.57
+        up echo "nameserver 8.8.8.8" > /etc/resolv.conf
+        up /root/Magi-Melchior.sh > /dev/null 2>&1
