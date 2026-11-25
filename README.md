@@ -7,7 +7,9 @@
 
 Bagian laporan ini mencakup soal 1–9 dan 11. Soal 10 dan 12–20 dilaporkan oleh Jude.
 
-Isi repositori: `artefak/` (tabel VLSM dan pohon IP), `skrip/` (konfigurasi dan skrip tiap router dan node), dan `dokumentasi/` (screenshot pengujian).
+Isi repositori: `Subnetting Modul 5 - K17.xlsx` (spreadsheet subnetting), `artefak/` (tabel VLSM dan pohon IP), `skrip/` (konfigurasi dan skrip tiap router dan node), dan `dokumentasi/` (screenshot pengujian).
+
+Spreadsheet subnetting: [Subnetting Modul 5 - K17](https://docs.google.com/spreadsheets/d/1QEh7FSF4SMWE6NrtgboxFsyxK3IPM8LNDhDZa9JRVzo/edit)
 
 Seluruh topologi dikerjakan di GNS3 dengan blok alamat 10.72.0.0/16 untuk 17 LAN dan 16 link router ke router. Gendou menjadi akar pohon dan satu-satunya router yang tersambung ke NAT1.
 
@@ -84,13 +86,15 @@ Dari urutan alokasi, subnet ini mendapat 10.72.4.48/29: network 10.72.4.48, gate
 | 32 | Link Asuka-Gendou | 2 router | 10.72.4.164/30 | 10.72.4.165 | 10.72.4.167 | 2 | 0 |
 | 33 | Link Kaji-Gendou | 2 router | 10.72.4.168/30 | 10.72.4.169 | 10.72.4.171 | 2 | 0 |
 
-Tabel yang sama tersedia di [artefak/tabel-vlsm.md](artefak/tabel-vlsm.md).
+Tabel yang sama tersedia di [artefak/tabel-vlsm.md](artefak/tabel-vlsm.md) dan pada spreadsheet subnetting (tab *Pembagian IP - VLSM*).
+
+![Tabel VLSM pada spreadsheet](dokumentasi/JARKOM5_01_tabel-vlsm.png)
 
 ### Pohon IP
 
 Jalur Dummy-Plug ke Armisael ditandai merah: Switch-Lab (10.72.4.48/29), link Ritsuko–Asuka (10.72.4.140/30), link Asuka–Gendou (10.72.4.164/30), link Gendou–Shigeru (10.72.4.156/30), lalu Switch-Monolith (10.72.4.80/29).
 
-![Pohon IP](artefak/pohon-ip.png)
+![Pohon IP](dokumentasi/JARKOM5_01_pohon-ip.png)
 
 Berkas yang dapat disunting: [artefak/pohon-ip.drawio](artefak/pohon-ip.drawio).
 
