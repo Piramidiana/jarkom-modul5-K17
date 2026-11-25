@@ -3,7 +3,7 @@
 | Kelompok | Nama | NRP | Soal |
 |---|---|---|---|
 | K-17 | Dian Piramidiana Rachmatika | 5027251031 | 1–9 dan 11 |
-| K-17 | Jude | - | 10 dan 12–20 |
+| K-17 | Jude Athala Yazid Sari | 5027251098 | 10 dan 12–20 |
 
 Bagian laporan ini mencakup soal 1–9 dan 11. Soal 10 dan 12–20 dilaporkan oleh Jude.
 
